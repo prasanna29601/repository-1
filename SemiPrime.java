@@ -6,22 +6,22 @@ public class SemiPrime {
 
 		  Scanner sc = new Scanner(System.in);
 		  System.out.println("enter number:");
-		  int num = sc.nextInt();  //  8
+		  int num = sc.nextInt();  
 		  int x=num;
 		  int c=0;
-		  for (int i = 2; c < 2 && i*i <= num; i++)  // 3<2 and 3*3<=8 -> f
+		  for (int i = 2; c < 2 && i*i <= num; i++)  
 		  {
-			  while(num%i == 0)  //  1%2 == 0(rem)-> f
+			  while(num%i == 0)  
 			  {
-				  num = num/i;  // 2/2 = 1 (quotient)
-				  ++c;  //  c=3  (because of 2,2,2)
+				  num = num/i;  
+				  ++c;  
 			  }
 		  }	  
-		 if(num>1)  // 1>1  -> f
+		 if(num>1)  
 		 {
-			 ++c;  // c = 2  (because of 3)
+			 ++c;  
 		 }	 
-		 if(c == 2)  // 3 == 2 -> f
+		 if(c == 2)  
 			 System.out.println("semiprime number = "+ x);
 		 else
 			 System.out.println("not a  semiprime number = "+x);
