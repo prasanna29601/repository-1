@@ -2,12 +2,12 @@ package Primes;
 import java.util.*;
 
 public class TwinPrimes {
-	static boolean isPrime(int n)  //3
+	static boolean isPrime(int n)  
 	{
 		boolean f = true;
-		for(int i = 2; i<= n/2; i++)  // 2 <= 3/2
+		for(int i = 2; i<= n/2; i++) 
 		{
-			if(n%i==0 )  // 3%2 == 0 -> f
+			if(n%i==0 ) 
 			{
 				f= false;
 				break;
