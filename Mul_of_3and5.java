@@ -5,8 +5,8 @@ public class Mul_of_3and5 {
 	public static void main(String[] args) {
 		Scanner obj = new Scanner(System.in);
 		  System.out.println("enter 2 numbers:");
-		  int s = obj.nextInt();  // s = 15
-		  int n = obj.nextInt(); // n = 120
+		  int s = obj.nextInt();  
+		  int n = obj.nextInt(); 
 		  System.out.println("Multiples of 3 and 5 are:");
 		  for(int i = s; i<= n ; i++)
 		  {
